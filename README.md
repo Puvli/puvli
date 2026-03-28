@@ -1,118 +1,101 @@
-# Привет, я Павел Зайцев! 👋
+# Hi, I'm Pavel Zaitsev 👋
 
-Добро пожаловать в мое портфолио проектов! Я веб-разработчик, специализирующийся на создании современных и интерактивных приложений. Здесь вы найдете примеры моих проектов, которые демонстрируют мои навыки и увлеченность в разработке. 📚💻
+Welcome to my project portfolio! I'm a frontend developer specializing in modern, interactive web applications. Here you'll find projects that showcase my skills and passion for building things on the web.
 
----
+## About Me
 
-## 🛠 О себе
+I'm a frontend developer with commercial experience building high-traffic web applications. My core stack is **TypeScript, React, and Redux**. I've worked on products ranging from SPAs with authentication and API integration to HTML5 games and algorithm visualizations.
 
-Я — веб-разработчик, прошедший обучение на курсах Яндекс.Практикума. В своих проектах я активно использую HTML, CSS, JavaScript, React, Redux и TypeScript. Мои проекты охватывают различные области — от SPA с авторизацией и работой с API до HTML5-игр и визуализации алгоритмов.
+## Projects
 
-## 🚀 Проекты
+### 1. [CryptoTracker](https://puvli.github.io/crypto-tracker/)
 
-### 1. CryptoTracker
-[crypto-tracker](https://github.com/Puvli/crypto-tracker)
+A single-page app for tracking cryptocurrency prices in real time. Features Firebase authentication (email/password + Google OAuth), interactive price charts across multiple timeframes, and a favorites system. Built with a glassmorphism UI and animated gradients. Auto-deployed to GitHub Pages via GitHub Actions.
 
-**Описание:**
-CryptoTracker — SPA для отслеживания криптовалют в реальном времени. Авторизация через Firebase (email/password + Google OAuth), интерактивные графики цен за разные периоды и система избранного. Glassmorphism UI с анимированными градиентами. Автоматический деплой на GitHub Pages через GitHub Actions.
+**Key features:**
+- Live prices for the top 50 cryptocurrencies by market cap
+- Sparkline charts (7-day) + detailed charts (24h / 7d / 30d / 1y) powered by Recharts
+- Authentication via Firebase Auth (email/password + Google OAuth)
+- Favorites — works both with and without auth (falls back to localStorage)
+- Search and filter coins by name or symbol
+- Dark glassmorphism UI with animated gradients
 
-**Основные функции:**
-- 📈 Актуальные цены криптовалют (топ-50 по капитализации)
-- 📊 Спарклайн-графики за 7 дней + детальные графики (24ч / 7д / 30д / 1г) на Recharts
-- 🔑 Авторизация — Firebase Auth (email/password + Google OAuth)
-- ⭐ Избранное — работает с авторизацией и без (localStorage)
-- 🔍 Поиск и фильтрация монет по имени и символу
-- 🎨 Dark glassmorphism UI с анимированными градиентами
-
-**Технологии:**
-React 18, TypeScript, Vite, React Router 6, Recharts, Firebase Authentication, CoinGecko API, GitHub Actions, GitHub Pages, Docker
+**Tech:** React 18, TypeScript, Vite, React Router 6, Recharts, Firebase Authentication, CoinGecko API, GitHub Actions, GitHub Pages, Docker
 
 ---
 
-### 2. Space Defender — HTML5 Game
-[space-defender](https://github.com/Puvli/space-defender)
+### 2. [Space Defender — HTML5 Game](https://puvli.github.io/space-defender/)
 
-**Описание:**
-Space Defender — космический шутер на чистом JavaScript и HTML5 Canvas API. Без фреймворков и игровых движков — вся механика написана с нуля: игровой цикл на `requestAnimationFrame`, AABB-коллизии, система частиц, параллакс и тач-управление для мобильных.
+A space shooter built with vanilla JavaScript and the HTML5 Canvas API. No frameworks or game engines — all mechanics are written from scratch: game loop on `requestAnimationFrame`, AABB collision detection, particle system, parallax scrolling, and touch controls for mobile.
 
-**Основные функции:**
-- 🚀 Canvas 2D рендеринг при 60 FPS с `requestAnimationFrame`
-- 💥 Система частиц для эффектов взрывов
-- 👾 Два типа врагов с синусоидальным движением и AI-стрельбой с рандомизированными интервалами
-- 🌟 Параллакс-фон из трёх слоёв звёзд
-- 📱 Мобильное управление — виртуальный джойстик (левая часть экрана) + зона стрельбы (правая)
-- 🏆 Система очков с сохранением рекорда в localStorage
-- 📈 Прогрессивное увеличение сложности
-- 🎮 Десктоп: WASD/стрелки для движения, пробел для стрельбы
+**Key features:**
+- Canvas 2D rendering at 60 FPS via `requestAnimationFrame`
+- Particle system for explosion effects
+- Two enemy types with sinusoidal movement and AI-driven shooting at randomized intervals
+- Three-layer parallax starfield background
+- Mobile controls — virtual joystick (left side) + fire zone (right side)
+- Score system with high score saved to localStorage
+- Progressive difficulty scaling
 
-**Технологии:**
-JavaScript (ES Modules), HTML5 Canvas 2D API, Vite, GitHub Pages, GitHub Actions (CI/CD)
+**Controls:** Desktop: WASD / arrow keys to move, Space to shoot | Mobile: touch
 
-🎮 [Играть онлайн](https://puvli.github.io/space-defender/)
+**Tech:** JavaScript (ES Modules), HTML5 Canvas 2D API, Vite, GitHub Pages, GitHub Actions (CI/CD)
 
 ---
 
-### 3. Mesto
-[mesto-project](https://github.com/Puvli/mesto-project)
+### 3. [Mesto](https://github.com/Puvli/mesto)
 
-**Описание:**
-Mesto – это интерактивное веб-приложение, где пользователи могут делиться фотографиями и ставить лайки. Проект демонстрирует навыки работы с объектно-ориентированным программированием (ООП) на JavaScript и взаимодействия с API.
+An interactive web app where users can share photos and like each other's posts. Demonstrates object-oriented JavaScript and REST API integration.
 
-**Основные функции:**
-- 📸 Добавление и удаление фотографий
-- ❤️ Постановка и снятие лайков
-- 🔑 Регистрация и авторизация пользователей
-- 🛠 Редактирование профиля
+**Key features:**
+- Add and delete photos
+- Like / unlike posts
+- User registration and authentication
+- Profile editing
 
-**Технологии:**
-HTML, CSS, JavaScript, Webpack
+**Tech:** HTML, CSS, JavaScript, Webpack
 
 ---
 
-### 4. React Stellar Burger
-[react-stellar-burger](https://github.com/Puvli/burger)
+### 4. [React Stellar Burger](https://github.com/Puvli/react-stellar-burger)
 
-**Описание:**
-React Stellar Burger – это веб-приложение для создания бургеров из различных ингредиентов. Пользователи могут выбирать ингредиенты, собирать бургер и видеть итоговую стоимость заказа. Проект создан для отработки работы с React, Redux и маршрутизацией.
+A web app for assembling custom burgers from various ingredients. Users pick ingredients, build a burger, and see the total order cost. Built to practice React, Redux, and client-side routing.
 
-**Основные функции:**
-- 🍔 Интерактивная сборка бургеров
-- 💰 Рассчет стоимости заказа
-- 🔗 Взаимодействие с сервером
+**Key features:**
+- Interactive burger builder with drag-and-drop
+- Order cost calculation
+- Server communication via REST API
 
-**Технологии:**
-HTML, CSS, React, JSX, Redux, React-router-dom, React-dnd, TypeScript
+**Tech:** HTML, CSS, React, Redux, React Router, React DnD, TypeScript
 
 ---
 
-### 5. Algososh
-[algososh](https://github.com/Puvli/algososh)
+### 5. [Algososh](https://github.com/Puvli/algososh)
 
-**Описание:**
-Algososh – это проект для визуализации работы алгоритмов и структур данных. Приложение демонстрирует различные алгоритмы, такие как сортировка и поиск, а также работу со структурами данных, такими как стек, очередь и связные списки.
+An algorithm and data structure visualization tool. Demonstrates sorting and search algorithms, as well as stacks, queues, and linked lists — all animated step by step.
 
-**Основные функции:**
-- 🔍 Визуализация работы алгоритмов
-- 🛠 Работа с различными структурами данных
+**Key features:**
+- Step-by-step algorithm visualization
+- Interactive data structure demonstrations
 
-**Технологии:**
-HTML, CSS, React, JSX, TypeScript
+**Tech:** HTML, CSS, React, TypeScript
 
 ---
 
-## 💡 Навыки
+## Skills
 
-- **Frontend:** HTML, CSS, JavaScript, React, Redux, TypeScript
-- **Auth & BaaS:** Firebase Authentication
-- **Инструменты:** Webpack, Vite, Docker, Git, GitHub Actions
-- **Работа с API:** REST, WebSocket, CoinGecko API
-- **Другое:** HTML5 Canvas, Recharts, Game Development
+| Area | Technologies |
+|------|-------------|
+| Frontend | HTML, CSS, JavaScript, React, Redux, TypeScript |
+| Auth & BaaS | Firebase Authentication |
+| Tooling | Webpack, Vite, Docker, Git, GitHub Actions |
+| APIs | REST, WebSocket, CoinGecko API |
+| Other | HTML5 Canvas, Recharts, Game Development |
 
-## 📬 Контакты
+## Contact
 
-- **Электронная почта:** pavel-zajtsev@yandex.ru
+- **Email:** pavel-zajtsev@yandex.ru
 - **GitHub:** [Puvli](https://github.com/Puvli)
+- **Telegram:** [@Puvli44](https://t.me/Puvli44)
 
----
-
-Спасибо за внимание! 😊
+Thanks for visiting!
