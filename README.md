@@ -43,59 +43,19 @@ A space shooter built with vanilla JavaScript and the HTML5 Canvas API. No frame
 
 ---
 
-### 3. [Mesto](https://github.com/Puvli/mesto)
-
-An interactive web app where users can share photos and like each other's posts. Demonstrates object-oriented JavaScript and REST API integration.
-
-**Key features:**
-- Add and delete photos
-- Like / unlike posts
-- User registration and authentication
-- Profile editing
-
-**Tech:** HTML, CSS, JavaScript, Webpack
-
----
-
-### 4. [React Stellar Burger](https://github.com/Puvli/react-stellar-burger)
-
-A web app for assembling custom burgers from various ingredients. Users pick ingredients, build a burger, and see the total order cost. Built to practice React, Redux, and client-side routing.
-
-**Key features:**
-- Interactive burger builder with drag-and-drop
-- Order cost calculation
-- Server communication via REST API
-
-**Tech:** HTML, CSS, React, Redux, React Router, React DnD, TypeScript
-
----
-
-### 5. [Algososh](https://github.com/Puvli/algososh)
-
-An algorithm and data structure visualization tool. Demonstrates sorting and search algorithms, as well as stacks, queues, and linked lists — all animated step by step.
-
-**Key features:**
-- Step-by-step algorithm visualization
-- Interactive data structure demonstrations
-
-**Tech:** HTML, CSS, React, TypeScript
-
----
-
 ## Skills
 
 | Area | Technologies |
 |------|-------------|
-| Frontend | HTML, CSS, JavaScript, React, Redux, TypeScript |
+| Frontend | HTML, CSS, JavaScript, React, Redux, mobX, TypeScript, Vue, Angular |
 | Auth & BaaS | Firebase Authentication |
 | Tooling | Webpack, Vite, Docker, Git, GitHub Actions |
 | APIs | REST, WebSocket, CoinGecko API |
-| Other | HTML5 Canvas, Recharts, Game Development |
+| Other | HTML5 Canvas, Recharts, Game Development, SEO |
 
 ## Contact
 
 - **Email:** pavel-zajtsev@yandex.ru
 - **GitHub:** [Puvli](https://github.com/Puvli)
-- **Telegram:** [@Puvli44](https://t.me/Puvli44)
 
 Thanks for visiting!
